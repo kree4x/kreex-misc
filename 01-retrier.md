@@ -168,7 +168,7 @@ Retrier.timeout(timeout) // 设定总超时时间
 估算单次任务的耗时，为其设定一个合理的超时时间，才能保证重试如我们期望的方式不断地进行。
 
 ```javascript
-Retrier.taskTimeout(timeout) // 设定总超时时间
+Retrier.taskTimeout(timeout) // 设定单次任务超时时间
 ```
 
 ### Task: 设定要执行的任务
